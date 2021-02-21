@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.246" height="68.281" viewBox="0 0 39.246 68.281">
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(-114.639 -69.412)">
+    <path id="Caminho_5" data-name="Caminho 5" d="M184.52,108.558v-4.514a2.044,2.044,0,1,0-4.088,0v4.5H173.89v-4.5a2.044,2.044,0,1,0-4.088,0v4.5h-7.767a2.044,2.044,0,0,0-2.044,2.044v8.176a2.044,2.044,0,0,0,2.044,2.044H164.9V146.15h-2.863a2.044,2.044,0,0,0-2.044,2.044v8.176a2.044,2.044,0,0,0,2.044,2.044H169.8v4.5a2.044,2.044,0,1,0,4.088,0v-4.5h6.542v4.5a2.044,2.044,0,1,0,4.088,0V158.4a15.416,15.416,0,0,0,14.717-15.381,15.247,15.247,0,0,0-3.317-9.539,15.247,15.247,0,0,0,3.317-9.539A15.415,15.415,0,0,0,184.52,108.558Zm7.222,26.38a11.3,11.3,0,0,1-7.9,19.388h-19.76v-4.088h2.863a2.044,2.044,0,0,0,2.044-2.044V118.761a2.044,2.044,0,0,0-2.044-2.044h-2.863v-4.088h19.76a11.3,11.3,0,0,1,7.9,19.388,2.044,2.044,0,0,0,0,2.922Z" transform="translate(-45.352 -30.032)" fill="#fff"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M232.023,171.333h-8.981A2.044,2.044,0,0,0,221,173.377v11.446a2.044,2.044,0,0,0,2.044,2.044h8.981a7.767,7.767,0,1,0,0-15.534Zm0,11.446h-6.937v-7.358h6.937a3.679,3.679,0,0,1,0,7.358Z" transform="translate(-93.889 -85.194)" fill="#fff"/>
+    <path id="Caminho_7" data-name="Caminho 7" d="M232.023,264.667h-8.981A2.044,2.044,0,0,0,221,266.711v11.446a2.044,2.044,0,0,0,2.044,2.044h8.981a7.767,7.767,0,1,0,0-15.534Zm0,11.446h-6.937v-7.358h6.937a3.679,3.679,0,1,1,0,7.358Z" transform="translate(-93.889 -159.45)" fill="#fff"/>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(121.613 71.522)">
+      <line id="Linha_1" data-name="Linha 1" y1="3.915" x2="4.818" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_2" data-name="Linha 2" x1="4.969" y1="3.915" transform="translate(4.818)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(132.304 131.61)">
+      <line id="Linha_1-2" data-name="Linha 1" x2="4.818" y2="3.971" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linha_2-2" data-name="Linha 2" x1="4.969" y2="3.971" transform="translate(4.818 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
