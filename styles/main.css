@@ -15,6 +15,7 @@ input {
 .hero {
   background-color: #000;
   padding: 34px;
+  overflow: hidden;
 }
 
 @-webkit-keyframes clockwiseAnimation {
@@ -103,7 +104,7 @@ input {
 .logo__text {
   color: #fff;
   font-weight: 700;
-  font-size: 36px;
+  font-size: clamp(18px, 32px, 42px);
   text-indent: 4px;
 }
 
@@ -119,20 +120,20 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding: 136px;
+  padding: 136px 0;
   position: relative;
 }
 
 .content .content__title {
   color: #fff;
   font-weight: 700;
-  font-size: 62px;
+  font-size: clamp(32px, 48px, 56px);
 }
 
 .content .content__subtitle {
   color: #fff;
   padding: 38px;
-  font-size: 24px;
+  font-size: clamp(18px, 22px, 24px);
 }
 
 .content .content__button__wrapper {
@@ -206,6 +207,7 @@ input {
   padding-bottom: 180px;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .converter .converter__bg {
@@ -241,7 +243,7 @@ input {
 .converter .converter__container .converter__title {
   color: #fff;
   font-weight: 700;
-  font-size: 56px;
+  font-size: clamp(32px, 48px, 56px);
   text-align: center;
   margin-bottom: 92px;
 }
@@ -266,7 +268,7 @@ input {
   width: 100%;
   color: #fff;
   font-weight: 700;
-  font-size: 42px;
+  font-size: clamp(22px, 24px, 42px);
   border-radius: 12px 0 0 12px;
 }
 
@@ -309,7 +311,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 32px;
+  font-size: clamp(18px, 28px, 42px);
   border-radius: 0 12px 12px 0;
 }
 
@@ -336,11 +338,18 @@ input {
 
 .footer .footer__text small {
   font-weight: normal;
-  font-size: 14px;
+  font-size: clamp(12px, 14px, 16px);
 }
 
 .footer .footer__text span {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+@media (max-width: 600px) {
+  .converter__input {
+    width: 238px;
+    background: red;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -12,14 +12,15 @@ function getLastBitcoinValue() {
 }
 
 getLastBitcoinValue();
+
 setInterval(() => {
   getLastBitcoinValue();
   console.log(lastBitcoinValue);
   getValue(inputBTC);
-}, 10000);
+}, 60000);
 
 function getValue(elem) {
-  let cleanValue = elem.value.replace(/[^0-9.]/g, "").replace(/(\..*?)\..*/g, "$1")
+  let cleanValue = elem.value.replace(/[^0-9.]/g, "").replace(/(\..*?)\..*/g, "$1");
   elem.value = `BTC ${cleanValue}`;
   inputBRL.value = Intl.NumberFormat("pt-br", {
     style: "currency",
