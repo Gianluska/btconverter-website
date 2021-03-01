@@ -14,7 +14,7 @@ input {
 
 .hero {
   background-color: #000;
-  padding: 34px;
+  padding: 72px 34px 0;
   overflow: hidden;
 }
 
@@ -104,7 +104,7 @@ input {
 .logo__text {
   color: #fff;
   font-weight: 700;
-  font-size: clamp(18px, 32px, 42px);
+  font-size: clamp(18px, 28px, 32px);
   text-indent: 4px;
 }
 
@@ -120,19 +120,19 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding: 136px 0;
+  padding: 108px 0;
   position: relative;
 }
 
 .content .content__title {
   color: #fff;
   font-weight: 700;
-  font-size: clamp(32px, 48px, 56px);
+  font-size: clamp(32px, 42px, 48px);
 }
 
 .content .content__subtitle {
   color: #fff;
-  padding: 38px;
+  padding: 28px;
   font-size: clamp(18px, 22px, 24px);
 }
 
@@ -179,6 +179,7 @@ input {
   -webkit-box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
           box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);
   color: #000;
+  font-size: 22px;
   font-weight: 700;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,7 +244,7 @@ input {
 .converter .converter__container .converter__title {
   color: #fff;
   font-weight: 700;
-  font-size: clamp(32px, 48px, 56px);
+  font-size: clamp(32px, 42px, 48px);
   text-align: center;
   margin-bottom: 92px;
 }
@@ -346,10 +347,25 @@ input {
   transition: all 0.2s ease;
 }
 
+.footer .footer__text a {
+  color: #fff;
+}
+
 @media (max-width: 600px) {
-  .converter__input {
-    width: 238px;
-    background: red;
+  .converter .converter__container {
+    padding: 92px 24px 24px 24px;
+  }
+  .converter .converter__container .converter__currency {
+    width: 25%;
+    height: auto;
+    font-size: 16px;
+  }
+  .converter .converter__container .converter__card {
+    padding: 64px 32px;
+  }
+  .converter .converter__container .converter__card .converter__input {
+    font-size: 16px;
+    height: 56px;
   }
 }
 /*# sourceMappingURL=main.css.map */
