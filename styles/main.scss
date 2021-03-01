@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 
-
 input {
   outline: none;
   border: none;
@@ -14,7 +13,7 @@ input {
 
 .hero {
   background-color: #000;
-  padding: 34px;
+  padding: 72px 34px 0;
   overflow: hidden;
 }
 
@@ -46,7 +45,6 @@ input {
   }
 }
 
-
 .header {
   background-color: #2d2d2d;
   padding: 18px;
@@ -63,7 +61,7 @@ input {
 .logo__text {
   color: #fff;
   font-weight: 700;
-  font-size: clamp(18px, 32px, 42px);
+  font-size: clamp(18px, 28px, 32px);
   text-indent: 4px;
 }
 
@@ -72,25 +70,25 @@ input {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 136px 0;
+  padding: 108px 0;
   position: relative;
 
   .content__title {
     color: #fff;
     font-weight: 700;
-    font-size: clamp(32px, 48px,56px);
+    font-size: clamp(32px, 42px, 48px);
   }
 
   .content__subtitle {
     color: #fff;
-    padding: 38px;
+    padding: 28px;
     font-size: clamp(18px, 22px, 24px);
   }
 
   .content__button__wrapper {
     position: relative;
     margin: 48px auto 0 auto;
-    
+
     .hero__bg {
       position: absolute;
       opacity: 0.06;
@@ -121,8 +119,9 @@ input {
     border-radius: 50%;
     background-color: #fff;
     border: none;
-    box-shadow: 0px 0px 12px rgba($color: #fff, $alpha: .5);
+    box-shadow: 0px 0px 12px rgba($color: #fff, $alpha: 0.5);
     color: #000;
+    font-size: 22px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -131,9 +130,9 @@ input {
     position: relative;
     z-index: 1;
     text-decoration: none;
-    transition: all .7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: all 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
     &:hover {
-      box-shadow: 0px 0px 32px rgba($color: #fff, $alpha: .7);
+      box-shadow: 0px 0px 32px rgba($color: #fff, $alpha: 0.7);
     }
   }
 }
@@ -146,7 +145,7 @@ input {
   overflow: hidden;
 
   .converter__bg {
-    filter: drop-shadow( 3px 3px 6px rgba(0, 0, 0, .7));
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.7));
     position: absolute;
     width: 600px;
     opacity: 0.02;
@@ -166,7 +165,7 @@ input {
     .converter__title {
       color: #fff;
       font-weight: 700;
-      font-size: clamp(32px, 48px, 56px);
+      font-size: clamp(32px, 42px, 48px);
       text-align: center;
       margin-bottom: 92px;
     }
@@ -250,13 +249,28 @@ input {
     span {
       transition: all 0.2s ease;
     }
-  }
 
+    a {
+      color: #fff;
+    }
+  }
 }
 
 @media (max-width: 600px) {
-  .converter__input {
-    width: 238px;
-    background: red;
+  .converter .converter__container {
+    padding: 92px 24px 24px 24px;
+
+    .converter__currency {
+      width: 25%;
+      height: auto;
+      font-size: 16px;
+    }
+    .converter__card {
+      padding: 64px 32px;
+      .converter__input {
+        font-size: 16px;
+        height: 56px;
+      }
+    }
   }
 }
